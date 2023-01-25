@@ -173,13 +173,14 @@ header a:hover {
 }
 
 .hebergements h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .cartes {
     display: flex;
     flex-flow: row wrap;
     gap: 5%;
+    margin-bottom: 1rem;
 }
 
 .card {
@@ -198,7 +199,7 @@ header a:hover {
 }
 
 .card .cotecard {
-    padding: 0.5rem;
+    padding: 0.3rem 0.5rem 0.5rem 0.5rem;
 }
 
 .card img {
