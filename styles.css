@@ -367,8 +367,6 @@ footer {
         margin: 1.5rem; 
     }
 
-    header div {}
-
     header a {
         border-bottom: 3px solid #f2f2F2;
         margin-bottom: 1rem;
@@ -442,10 +440,23 @@ footer {
         width: 100%;
         border-radius: 0;
     }
+
+    .populaires h2 {
+        margin-bottom: 1rem;
+    }
+
+    .card1 {
+        margin: 1rem 0;
+    }
+
+    .card1 img {
+        width: 30%;
+    }
     
     .hebergements {
         width: 100%;
         background-color: white;
+        padding-bottom: 0;
     }
 
     .card {
@@ -458,14 +469,11 @@ footer {
 
     .activites {
         flex-direction: column;
-        width: 100%;
-        margin: 0;
-        padding: 2rem;
+        padding: 0 2rem 2rem 2rem;
     }
 
     .card2 {
         width: 100%;
-        max-height: 210px;
         margin: 1rem 0;
     }
 
@@ -544,5 +552,11 @@ footer {
         padding: 0.3rem;
         margin-bottom: 1rem;
         box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+    }
+}
+
+@media only screen and (min-width: 1456px) {
+    body {
+        margin:auto;
     }
 }
