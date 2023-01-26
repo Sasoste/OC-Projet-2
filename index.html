@@ -29,15 +29,18 @@
         </nav>
     </header>
 
-
     <main>
+
         <section class="intro">
             <h2>Trouvez votre hébergement pour des vacances de rêves</h2><!--22-->
             <p class="text">En plein centre-ville ou en pleine nature</p><!--16-->
             <form action="" method="get">
                 <i class="fa-solid fa-location-dot"></i>
                 <input id="Recherche" type="search" placeholder="Marseille, France" /><!--18-->
-                <button type="Submit" id="button">Rechercher</button>
+                <button type="Submit" id="desktopbutton">Rechercher</button>
+                <button type="Submit" id="mobilebutton">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
             </form>
 
             <div class="filtres">
@@ -81,8 +84,8 @@
                         <a href="">
                             <img src="images/hl/2.jpg" alt="Hôtel du port" class="image" />
                             <div class="cotecard">
-                                <h4>Hôtel du port</h4><!--16-->
-                                <p>Nuit à partir de 52<strong>€</strong></p><!--14-->
+                                <h4>Hôtel du port</h4>
+                                <p>Nuit à partir de 52<strong>€</strong></p>
                                 <div class="etoiles">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -97,8 +100,8 @@
                         <a href="">
                             <img src="images/hl/3.jpg" alt="Hôtel Les mouettes" class="image" />
                             <div class="cotecard">
-                                <h4>Hôtel Les mouettes</h4><!--16-->
-                                <p>Nuit à partir de 76<strong>€</strong></p><!--14-->
+                                <h4>Hôtel Les mouettes</h4>
+                                <p>Nuit à partir de 76<strong>€</strong></p>
                                 <div class="etoiles">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -113,8 +116,8 @@
                         <a href="">
                             <img src="images/hl/4.jpg" alt="Hôtel de la mer" class="image" />
                             <div class="cotecard">
-                                <h4>Hôtel de la mer</h4><!--16-->
-                                <p>Nuit à partir de 46<strong>€</strong></p><!--14-->
+                                <h4>Hôtel de la mer</h4>
+                                <p>Nuit à partir de 46<strong>€</strong></p>
                                 <div class="etoiles">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -129,8 +132,8 @@
                         <a href="">
                             <img src="images/hl/5.jpg" alt="Auberge Le Panier" class="image" />
                             <div class="cotecard">
-                                <h4>Auberge Le Panier</h4><!--16-->
-                                <p>Nuit à partir de 23<strong>€</strong></p><!--14-->
+                                <h4>Auberge Le Panier</h4>
+                                <p>Nuit à partir de 23<strong>€</strong></p>
                                 <div class="etoiles">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -145,8 +148,8 @@
                         <a href="">
                             <img src="images/hl/6.jpg" alt="Hôtel Chez Amina" class="image" />
                             <div class="cotecard">
-                                <h4>Hôtel Chez Amina</h4><!--16-->
-                                <p>Nuit à partir de 96<strong>€</strong></p><!--14-->
+                                <h4>Hôtel Chez Amina</h4>
+                                <p>Nuit à partir de 96<strong>€</strong></p>
                                 <div class="etoiles">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -188,8 +191,8 @@
                         <img src="images/hl/8.jpg" alt="Chambres d’hôtes Au cœur de l’eau" class="image1" />
                         <div class="cotecard1">
                             <div>
-                                <h4>Chambres d’hôtes Au cœur de l’eau</h4><!--16-->
-                                <p>Nuit à partir de 71<strong>€</strong></p><!--14-->
+                                <h4>Chambres d’hôtes Au cœur de l’eau</h4>
+                                <p>Nuit à partir de 71<strong>€</strong></p>
                             </div>
                             <div class="etoiles">
                                 <i class="fa fa-star"></i>
@@ -206,8 +209,8 @@
                         <img src="images/hl/9.jpg" alt="Hôtel Bleu et Blanc" class="image1" />
                         <div class="cotecard1">
                             <div>
-                                <h4>Hôtel Bleu et Blanc</h4><!--16-->
-                                <p>Nuit à partir de 68<strong>€</strong></p><!--14-->
+                                <h4>Hôtel Bleu et Blanc</h4>
+                                <p>Nuit à partir de 68<strong>€</strong></p>
                             </div>
                             <div class="etoiles">
                                 <i class="fa fa-star"></i>
@@ -256,18 +259,18 @@
         <div class="colonne">
             <h3>À propos</h3><!--18-->
             <a href="#" class="text">Fonctionnement du site</a><!--16-->
-            <a href="#" class="text">Conditions générales</a><!--16-->
-            <a href="#" class="text">Données et confidentialité</a><!--16-->
+            <a href="#" class="text">Conditions générales</a>
+            <a href="#" class="text">Données et confidentialité</a>
         </div>
         <div class="colonne">
-            <h3>Nos hébergements</h3><!--18-->
-            <a href="#" class="text">Charte qualité</a><!--16-->
-            <a href="#" class="text">Proposer votre hôtel</a><!--16-->
+            <h3>Nos hébergements</h3>
+            <a href="#" class="text">Charte qualité</a>
+            <a href="#" class="text">Proposer votre hôtel</a>
         </div>
         <div class="colonne">
-            <h3>Assistance</h3><!--18-->
-            <a href="#" class="text">Centre d'aide</a><!--16-->
-            <a href="#" class="text">Nous contacter</a><!--16-->
+            <h3>Assistance</h3>
+            <a href="#" class="text">Centre d'aide</a>
+            <a href="#" class="text">Nous contacter</a>
         </div>
     </footer>
 </body>
