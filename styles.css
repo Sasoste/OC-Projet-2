@@ -103,9 +103,8 @@ header a:hover {
     display:none;
 }
 
-.intro
 
-.intro p, .intro h1 {
+.intro p, .intro h2 {
     margin: 1rem 0;
 }
 
@@ -167,7 +166,7 @@ header a:hover {
 
 .logements {
     display:flex;
-    gap: 3%;
+    gap: 2rem;
 }
 
 .hebergements {
@@ -184,7 +183,7 @@ header a:hover {
 .cartes {
     display: flex;
     flex-flow: row wrap;
-    gap: 5%;
+    gap: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -199,8 +198,8 @@ header a:hover {
     box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
 }
 
-.card h4, .card p, .card ul, .card1 h4, .card1 p {
-    margin: 2% 0 2% 0
+.card h4, .card p, .card1 h4, .card1 p {
+    margin: 0.2rem 0
 }
 
 .card .cotecard {
@@ -337,7 +336,7 @@ footer {
     display:flex;
     flex-direction: column;
     flex-basis: calc(100%/3);
-    margin: 2% 3% 3% 3%;
+    margin: 1.5rem 2rem;
     align-items: stretch;
     padding: 1rem;
 }
