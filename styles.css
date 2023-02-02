@@ -41,17 +41,16 @@ header {
     display:flex;
     justify-content: space-between;
     align-items: center; 
+
 }
 
 header img {
     height: 19px;
 }
 
-header div {
+header nav {
     display: flex;
-    flex-direction: row;
     font-size: 16px;
-    justify-content: space-around;
 }
 
 header a {
@@ -84,7 +83,7 @@ header a:hover {
     margin: 1rem -4px;
 }
 
-.intro input::placeholder {
+#Recherche::placeholder {
     color: black;
     font-size: 18px;
 }
@@ -275,7 +274,7 @@ header a:hover {
     display:flex;
     flex-direction: column;
     height: 144px;
-    padding: 1rem;
+    padding: 0.5rem 1rem 1rem 1rem;
     justify-content: space-between;
 }
 
@@ -359,6 +358,7 @@ footer {
 
     header {
         flex-direction: column;
+        width: 100%;
     }
 
     header img {
@@ -366,9 +366,16 @@ footer {
         margin: 1.5rem; 
     }
 
+    header nav {
+        display: flex;
+        justify-content:stretch;
+        width:100%;
+    }
+
     header a {
         border-bottom: 3px solid #f2f2F2;
-        margin-bottom: 1rem;
+        width:100%;
+        align-items: center;
     }
 
     header a:hover {
@@ -377,16 +384,14 @@ footer {
         border-bottom: 3px solid #0065FC;
     }
 
-    header a {
-        padding: 2rem 100%;
+    header nav {
+        width: 100%;
     }
+
+
 
     .intro #desktopbutton {
         display:none;
-    }
-
-    .intro input {
-        width: 80%;
     }
 
     .intro #mobilebutton {
@@ -403,7 +408,7 @@ footer {
     }
 
     .intro h2, .text {
-        margin: 0.7rem;
+        margin: 0.7rem 0;
     }
 
     .intro form {
@@ -504,10 +509,10 @@ footer {
 
 }
 
-@media only screen and (max-width: 992px) and (min-width: 769px) {
+@media only screen and (max-width: 992px) and (min-width: 881px) {
 
     body {
-        margin: 0 2rem 0 2rem;
+        margin: 0 2rem;
     }
 
     .logements {
@@ -532,8 +537,6 @@ footer {
 
     .card1 {
         width: 30%;
-        height: auto;
-
     }
 
     .card1 img {
@@ -557,5 +560,67 @@ footer {
 @media only screen and (min-width: 1456px) {
     body {
         margin:auto;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+
+    form {
+        max-width:fit-content;
+    }
+
+@media only screen and (max-width: 880px) and (min-width: 769px) {
+
+    body {
+        margin: 0 2rem;
+    }
+
+    .logements {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .populaires {
+        width: 100%;
+        flex-direction: row;
+        height: auto;
+    }
+
+    .populaires h2 {
+        width: 90%;
+        margin-bottom: 1.5rem;
+    }
+
+    .card1 h4 {
+        font-size: 16px;
+    }
+
+    .card1 p {
+        font-size: 15px;
+    }
+
+    .card1 {
+        width: 30%;
+    }
+
+    .card1 img {
+        object-fit: cover;
+        width: 37%;
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .card {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        background-color: white;
+        padding: 0.3rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
     }
 }
