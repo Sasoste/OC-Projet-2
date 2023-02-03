@@ -2,8 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
+
+
+
 body {
     font-family: "Raleway", "sans-serif";
     margin: 0 2rem 0 2rem;
@@ -13,18 +15,22 @@ body {
 h2 {
     font-size: 22px;
 }
+
 h3 {
 
     font-size: 18px;
 
 }
+
 h4 {
     font-size: 17px;
 
 }
+
 p {
     font-size: 16px;
 }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -33,9 +39,6 @@ a {
 
 /* HEADER */
 /* HEADER */
-/* HEADER */
-
-
 
 header {
     display:flex;
@@ -50,7 +53,6 @@ header img {
 
 header nav {
     display: flex;
-    font-size: 16px;
 }
 
 header a {
@@ -62,7 +64,15 @@ header a:hover {
     border-top: 3px solid #0065FC;
 }
 
-/* Barre de recherche */
+
+/*Intro*/
+/*Intro*/
+
+.intro p, .intro h2 {
+    margin: 1rem 0;
+}
+
+
 /* Barre de recherche */
 /* Barre de recherche */
 
@@ -72,42 +82,46 @@ header a:hover {
     padding: 1rem 1.25rem;
 }
 
-#Recherche {
-    padding: 0.78rem; 
-    border-top: 1px solid #f2F2F2;
-    border-bottom: 1px solid #F2F2F2;
-    font-size: 18px;
-    font-weight: bold;
-    border-left: none;
-    border-right: none;
-    margin: 1rem -4px;
+form {
+    display:flex;
+    min-height: 55px;
 }
 
-#Recherche::placeholder {
-    color: black;
-    font-size: 18px;
-}
-
-.intro #desktopbutton {
-    padding: 0.94rem 0.85rem 0.87rem 0.85rem;
-    border-radius: 0 1rem 1rem 0;
-    background-color:#0065FC;
-    font-size: 16px;
-    color: white;
-    border: none; 
-    font-weight: bold;
-}
-
-.intro #mobilebutton {
+#mobilebutton {
     display:none;
 }
 
-
-.intro p, .intro h2 {
-    margin: 1rem 0;
+#Recherche {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #f2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    width: 236px;
+    padding-left: 1rem;
 }
 
-/* Filtres */
+#Recherche::placeholder {
+    color: inherit;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#Recherche::-moz-placeholder {
+    color: black;
+    opacity: 1;
+}
+
+#desktopbutton {
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    border-radius : 0 1rem 1rem 0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 0.85rem;
+}
+
+
 /* Filtres */
 /* Filtres */
 
@@ -143,8 +157,6 @@ header a:hover {
 }
 
 
-
-/* Info */
 /* Info */
 /* Info */
 
@@ -250,10 +262,15 @@ header a:hover {
 
 }
 
+.titlepopulaires {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
 .fa-chart-line {
     color: #0065FC;
-    position:relative;
-    float: right;
 }
 
 .card1 a {
@@ -390,6 +407,10 @@ footer {
     }
 
 
+    #Recherche {
+        width:80%;
+    }
+
 
     .intro #desktopbutton {
         display:none;
@@ -402,10 +423,6 @@ footer {
         background-color:#0065FC;
         color: white;
         border: none; 
-    }
-
-    .intro input {
-        flex-grow:90%;
     }
 
     .intro {
@@ -535,10 +552,10 @@ footer {
         height: auto;
     }
 
-    .populaires h2 {
-        width: 90%;
+    .titlepopulaires {
         margin-bottom: 1.5rem;
     }
+    
 
     .card1 {
         width: 30%;
@@ -568,16 +585,9 @@ footer {
     }
 }
 
-@media only screen and (max-width: 431px) {
 
-    form {
-        max-width:fit-content;
+@media only screen and (max-width: 462px) {
+    .filtres div p {
+        width: 70%;
     }
-
-}
-
-@media only screen and (max-width: 880px) and (min-width: 769px) {
-
-    .card1 
-
 }
