@@ -591,3 +591,14 @@ footer {
         width: 70%;
     }
 }
+
+@media only screen and (max-width: 903px) and (min-width:769px) { 
+    .filtres div p {
+        width: 45%;
+        margin-bottom: 1rem;
+    }
+
+    .filtres {
+        margin-bottom: 0;
+    }
+}
