@@ -365,6 +365,54 @@ footer {
     margin-bottom: 0.5rem;
 }
 
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+
+    body {
+        margin: 0 2rem;
+    }
+
+    .logements {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .populaires {
+        width: 100%;
+        flex-direction: row;
+        height: auto;
+    }
+
+    .titlepopulaires {
+        margin-bottom: 1.5rem;
+    }
+    
+
+    .card1 {
+        width: 30%;
+    }
+
+    .card1 img {
+        object-fit: cover;
+        width: 37%;
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .card {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        background-color: white;
+        padding: 0.3rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+    }
+}
+
 /* Mobile */
 
 @media only screen and (max-width: 768px) {
@@ -529,54 +577,6 @@ footer {
         margin-left: 0;
     }
 
-}
-
-@media only screen and (max-width: 992px) and (min-width: 769px) {
-
-    body {
-        margin: 0 2rem;
-    }
-
-    .logements {
-        flex-direction: column;
-    }
-
-    .hebergements {
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    .populaires {
-        width: 100%;
-        flex-direction: row;
-        height: auto;
-    }
-
-    .titlepopulaires {
-        margin-bottom: 1.5rem;
-    }
-    
-
-    .card1 {
-        width: 30%;
-    }
-
-    .card1 img {
-        object-fit: cover;
-        width: 37%;
-        border-radius: 1rem 0 0 1rem;
-    }
-
-    .card {
-        width: 30%;
-        display: flex;
-        flex-direction: column;
-        border-radius: 1rem;
-        background-color: white;
-        padding: 0.3rem;
-        margin-bottom: 1rem;
-        box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
-    }
 }
 
 @media only screen and (min-width: 1456px) {
