@@ -171,7 +171,6 @@ form {
 
 /* Hebergement */
 /* Hebergement */
-/* Hebergement */
 
 .logements {
     display:flex;
@@ -246,7 +245,6 @@ form {
 
 /* Populaires */
 /* Populaires */
-/* Populaires */
 
 .populaires {    
     display: flex;
@@ -303,7 +301,6 @@ form {
 
 /* Activités */
 /* Activités */
-/* Activités */
 
 .activites {
     display: flex;
@@ -337,7 +334,6 @@ form {
 
 /* Footer */
 /* Footer */
-/* Footer */
 
 footer {
     background-color: #F2F2F2;
@@ -362,6 +358,9 @@ footer {
 .colonne a {
     margin-bottom: 0.5rem;
 }
+
+/*Tablette*/
+/*Tablette*/
 
 @media only screen and (max-width: 992px) and (min-width: 769px) {
 
